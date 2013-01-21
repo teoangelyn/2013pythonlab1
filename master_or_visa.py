@@ -4,10 +4,6 @@ import re
 
 def master_or_visa(card_no):
     ''' Function to determine if a user input credit card number belongs to MasterCard or Visa'''
-
-    # reverse card number
-    card_no == card_no[::-1]
-    
    
     if card_no[0] == '4':
         print("Visa")
